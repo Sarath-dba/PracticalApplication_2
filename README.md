@@ -12,11 +12,11 @@
 
 🔗 prompt_III.ipynb: https://github.com/Sarath-dba/PracticalApplication_2/blob/main/prompt_II.ipynb
 
-#### Overview: In this application, you will explore a dataset from Kaggle. The original dataset contained information on 3 million used cars. The provided dataset contains information on 426K cars to ensure speed of processing. Your goal is to understand what factors make a car more or less expensive. As a result of your analysis, you should provide clear recommendations to your client -- a used car dealership -- as to what consumers value in a used car.
+##### Overview: In this application, you will explore a dataset from Kaggle. The original dataset contained information on 3 million used cars. The provided dataset contains information on 426K cars to ensure speed of processing. Your goal is to understand what factors make a car more or less expensive. As a result of your analysis, you should provide clear recommendations to your client -- a used car dealership -- as to what consumers value in a used car.
 
 ###### The exercise follows problem solving approach using CRISP-DM Framework
 
-#### Business Understanding
+#### 💡Business Understanding
 
 **User Car sales market drives good revenue, approx $2B in Minnesota alone which is good news for auto dealers, creates more jobs in the industry and benefits state as well in form of taxes.**
 
@@ -100,7 +100,7 @@ Certain car brands are known for their reliability and longevity, which can infl
 
 **Filter rows with price != 0 and price > 250,000. The condition of the vehicle is shown good and Excellent but zero price did not make sense.**
 
-#### Modeling
+#### 🤖 Modeling
 
 Consider: Linear Regression, Lasso and Ridge models for this Regression problem in predicting continuous variable, price of car.
 
@@ -123,7 +123,7 @@ Best parameters for Ridge: {'alpha': 0.1}
 
 4. Model is biased towards the higher priced cars and choosing those features with more omprtance in driving price. Go back to data cleaning and remove the outliers.
 
-#### 📝 Deployment
+#### 🚀 Deployment
 
 #### After revisiting the data and removing the outlier brands and priced vehicles. Below is the report for our used car dealers.
 
